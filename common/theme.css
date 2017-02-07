@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #9ec3d3;
+  --color-secondary: #4c4442;
+  --color-accent: #ebe5dd;
+  --color-whatever: #1e3649;
+
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Tinos", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}

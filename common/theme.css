@@ -11,3 +11,22 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #9ec3d3;
+  font-weight: bold;
+}
+
+p {
+  color: #e2e2e2;
+}
+
+a {
+  color: #9ec3d3;
+  text-decoration: none;
+}
+
+ul, dl, ol {
+  color: #e2e2e2;
+  list-style-type: none;
+}

@@ -1,0 +1,30 @@
+.banner {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+}
+
+p {
+  color: #fff;
+  left: 20%;
+  position: absolute;
+  bottom: 40%;
+  transform: translateX(-35%);
+}
+
+.btn-standard {
+  border-color: #fff;
+  background-color: var(--color-primary-light);
+  left: 70%;
+  transform: translateY(-220%) translateX(130%);
+}
+
+.btn-standard:hover {
+  border-color: #fff;
+  background-color: var(--color-whatever);
+
+  color: #fff;
+}

@@ -20,6 +20,7 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banner">Banner</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
@@ -371,6 +372,42 @@
 
 </section>
 
+        <section class="pattern" id="banner">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Banner</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><h2 id="banner-">banner:</h2>
+<p>The banner is only meant for the homepage and should be present with a call-to-action button with it.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="banner-banner">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/banner/banner.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="banner"&gt;
+  &lt;img class="push-1-2" src="../../images/banner.jpg" alt="Banner">
+  &lt;p class="terra text-center">You can&apos;t change a dog&apos;s past, but you could rewrite it&apos;s future&lt;/p>
+  &lt;a class="btn btn-standard">Adopt Today!&lt;/a>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons">
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
@@ -418,11 +455,17 @@
           <ol class="list-group-inline pad-t-1-4 push-0">
               <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-adoption-card">Adoption card</a></li>
               <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
-              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
           </ol>
         </nav>
     </div>
 
+      <div class="pattern-desc milli island">
+        <div class="max-length"><h2 id="adoption-card-">adoption card:</h2>
+<p>Th card is to be used to display the dogs that are available for adoption. It should include a picture of the dog and have all of the information filled out.</p>
+<h2 id="basic-card-">basic card:</h2>
+<p>This is to be used for any other type of card that might be needed.x</p>
+</div>
+      </div>
   </div>
 
   
@@ -471,49 +514,6 @@
               <code><pre>&lt;div class="card island-1-2"&gt;
   &lt;h2 class="push-1-4">This is a card&lt;/h2>
   &lt;p class="push-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p>
-&lt;/div>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="pattern-details push" id="cards-icon-card">
-        <div class="push">
-          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
-            <h3 class="pattern-name tera push-1-8">Icon card</h3>
-          </div>
-        </div>
-
-      <div class="pattern-examples">
-        <div class="gutter">
-          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
-        </div>
-          <div class="gutter">
-            <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div class="card relative adopt-card island-1-2 text-center"&gt;
-  &lt;div class="push relative img-container">
-    &lt;a href="#">
-      &lt;img class="img-flex" src="http://placehold.it/350x200" alt="">
-      &lt;div class="left-info island absolute">
-        &lt;h2 class="yotta push-1-4">Name&lt;/h2>
-        &lt;h3 class="push-1-4">Breed&lt;/h3>
-      &lt;/div>
-    &lt;/a>
-  &lt;/div>
-  &lt;div class="grid gutter">
-    &lt;div class="unit xs-1-2">
-      &lt;ul class="pad-b list-group">
-        &lt;li>Age:&lt;/li>
-        &lt;li>Colour:&lt;/li>
-        &lt;li>Sex:&lt;/li>
-        &lt;li>Description&lt;/li>
-      &lt;/ul>
-    &lt;/div>
-    &lt;div class="xs-1-2 unit">
-      &lt;a class="btn" href="Standard Button" &lt;="" a="">
-      &lt;/a>
-    &lt;/div>
-  &lt;/div>
 &lt;/div>
 </pre></code>
             </div>

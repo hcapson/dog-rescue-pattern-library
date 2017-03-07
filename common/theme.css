@@ -1,5 +1,6 @@
 :root {
   --color-primary: #9ec3d3;
+  --color-primary-light: #c4e9f7;
   --color-secondary: #4c4442;
   --color-accent: #ebe5dd;
   --color-whatever: #1e3649;
@@ -40,4 +41,8 @@ li {
 
 blockquote, cite, q {
   color: #9bcccc;
+}
+
+mark {
+  background-color: var(--color-primary);
 }

@@ -1,0 +1,60 @@
+.nav {
+  text-decoration: none;
+  margin: 0;
+  color: #fff;
+  padding: .5em;
+  background-color: var(--color-primary);
+  list-style-type: none;
+  display: none;
+}
+
+.nav a {
+  padding: .5em;
+  display: block;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav li:hover {
+  background-color: var(--color-whatever);
+  border: var(--color-whatever);
+  border-radius: 4rem;
+}
+
+.nav-check {
+  top: -2.5em;
+  position: absolute;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check + .nav-label::before {
+  content: none;
+  display: none;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: inline-block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+@media only screen and (min-width: 42em) {
+
+  .nav {
+    display: block;
+  }
+
+  .nav-wrap .nav-label {
+    display: none;
+  }
+}

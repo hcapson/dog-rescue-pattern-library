@@ -1,0 +1,7 @@
+.body-copy {
+  color: black;
+}
+
+.page title {
+  color: var(--color-primary);
+}

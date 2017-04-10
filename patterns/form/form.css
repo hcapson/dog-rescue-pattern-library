@@ -1,0 +1,22 @@
+.flag-optional {
+  color: var(--color-secondary);
+}
+
+.error-message {
+  color: var(--color-secondary);
+  display: none;
+  background-color: #fee;
+}
+
+.is-validated input:invalid, .is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-secondary);
+}
+
+.is-validated > .error-message:first-child, .is-validated input:invalid + .error-message, .is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.error-message-highlighted {
+  background-color: var(--color-secondary);
+  color: #fff;
+}

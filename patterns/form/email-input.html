@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Email input</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link href="cards.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="island max-length" method="post" novalidate>
+    <div class="push island-1-2">
+
+      <div class="push-1-2">
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" required aria-describedby="email-error">
+        <p class="error-message push-0 island-1-4 milli" id="email-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a vaild email address.</span>
+        </p>
+      </div>
+    </div>
+  </form>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>

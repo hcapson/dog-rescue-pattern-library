@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Text Inputs</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link href="cards.css" rel="stylesheet">
+  <link href="form.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="island max-length" method="post" novalidate>
+    <div class="push-1-2">
+      <label for="name">FULL NAME</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="milli island-1-4 push-0 error-message" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Provide a name</span>
+      </p>
+    </div>
+  </form>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>

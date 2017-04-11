@@ -1,0 +1,8 @@
+p {
+  color: var(--color-whatever);
+  transform: translateY(20%);
+}
+
+.btn {
+  transform: translateY(20%);
+}

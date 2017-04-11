@@ -1,6 +1,7 @@
 footer {
   color: #fff;
   background-color: var(--color-primary);
+  transform: translateY(350%);
 }
 
 h5,

@@ -1,9 +1,6 @@
-.flag-optional {
-  color: var(--color-secondary);
-}
+
 
 .error-message {
-  color: var(--color-secondary);
   display: none;
   background-color: #fee;
 }
@@ -17,6 +14,20 @@
 }
 
 .error-message-highlighted {
-  background-color: var(--color-secondary);
   color: #fff;
+}
+
+.is-validated input:invalid,
+.is-validated textarea:invalid,
+.is-validated select:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated select:invalid + .error-message,
+.is-validated textarea:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
 }

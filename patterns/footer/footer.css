@@ -1,7 +1,6 @@
 footer {
   color: #fff;
   background-color: var(--color-primary);
-  transform: translateY(350%);
 }
 
 h5,
@@ -11,12 +10,20 @@ h5,
 
 .copyright {
   text-align: center;
+  color: white;
 }
 
 .icon {
   text-align: left;
 }
 
+.footer p {
+  color: white;
+}
+
+.list {
+  color: white;
+}
 @media only screen and (min-width: 60em) {
 
   .icon {

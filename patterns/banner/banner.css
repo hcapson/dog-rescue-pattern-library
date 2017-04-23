@@ -7,25 +7,13 @@ img {
   background-size: cover;
 }
 
-p {
-  color: #fff;
-  left: 20%;
-  right: 20%;
-  position: absolute;
-  bottom: 50%;
-  top: 30%;
-  transform: translateX(-20%);
-}
-
-.btn-standard {
+.banner .btn-standard {
   border-color: #fff;
   background-color: var(--color-primary-light);
-  left: 70%;
-  right: 70%;
-  transform: translateY(-170%) translateX(310%);
+  transform: translateY(-300%) translateX(195%);
 }
 
-.btn-standard:hover {
+.banner .btn-standard:hover {
   border-color: #fff;
   background-color: var(--color-whatever);
 

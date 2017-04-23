@@ -12,35 +12,56 @@
   <link href="../patterns/banner/banner.css" rel="stylesheet">
   <link href="../patterns/adoption-card/cards.css" rel="stylesheet">
   <link href="../patterns/footer/footer.css" rel="stylesheet">
+  <link href="../patterns/featured/featured.css" rel="stylesheet">
+  <link href="../patterns/about/about.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-  <link href="cards.css" rel="stylesheet">
-  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="../patterns/buttons/buttons.css" rel="stylesheet">
 </head>
 <body>
   <section class="masthead">
     <nav role="navigation" id="nav">
-    <div class="nav">
-      <div class="wrapper gutter-1-2">
-        <i class="icon i-64">
-          <img class="logo" src="../images/logo.svg" alt="LOYAL RESCUE">
-        </i>
-        <h1 class="yotta icon-label push-0 text-center">Loyal Rescue</h1>
-        <ol class="mega text-center list-group-inline push-0">
-          <li class="unit block island-1-4"><a href="#adopt">FOR ADOPTION</a></li>
-          <li class="unit block island-1-4"><a href="#about">ABOUT US</a></li>
-          <li class="unit block island-1-4"><a href="#application">APPLICATION</a></li>
-          <li class="unit block island-1-4"><a href="#contact">CONTACT US</a></li>
-          </ol>
+      <div class="nav">
+        <div class="wrapper gutter-1-2">
+          <i class="icon i-64">
+            <img class="logo" src="../images/logo.svg" alt="LOYAL RESCUE">
+          </i>
+          <h1 class="yotta icon-label push-0 text-center">Loyal Rescue</h1>
+          <ul class="mega text-center list-group-inline push-0">
+            <li class="unit block island-1-4"><a href="home.html">HOME</a></li>
+            <li class="unit block island-1-4"><a href="adoption.html">FOR ADOPTION</a></li>
+            <li class="unit block island-1-4"><a href="#application">APPLICATION</a></li>
+            <li class="unit block island-1-4"><a href="#contact">CONTACT US</a></li>
+          </ul>
         </div>
       </div>
     </nav>
   </section>
   <div class="banner">
-    <img class="banner-text pad-t-1-2 gutter" src="../images/banner.jpg" alt="Banner">
-    <p class="giga gutter-double text-center push-r">You can't change a dog's past, but you could rewrite it's future</p>
-    <a class="btn btn-standard pad-t-2xs">Adopt Today!</a>
+    <img class="banner-text pad-t-1-2" src="../images/banner.jpg" alt="Banner">
+    <a class="btn btn-standard">Adopt Today!</a>
   </div>
+  <div class="wrapper">
+    <header class="max-legnth text-left push-2 gutter-half">
+      <h1 class="giga text-upper text-center not-bold push-0">Our Journey</h1>
+      <hr>
+    </header>
+    <article class="about gutter-half text-center max-legth">
+      <p><span class="about black"></span>LOYAL Rescue Inc. is a foster-based rescue and we do not operate a shelter. We do not have viewing hours as each pet is in a private home. Should you be the successful applicant for this pet, you are then welcome to come and meet the dog. You are not obligated to adopt, should you determine the fit is not correct, however we must go through this process prior to meeting the dog.</p>
+      <p><span class="about black"></span>The Loyal Rescue team specailizes in caring for dogs. We make it our goal to find each dog that we aquire a loving home that fits them perfectly. Our team is able to identify which homes will be the best fit for our dogs. We are also very skilled at making sure the fogs we take in are ready for a new home with new people, because a lot of the dogs need a push and proper attention to make sure that they are ready for that step.</p>
+    </article>
 
+    <header class="featured max-legnth text-left push-2 pad-t gutter-half">
+      <h1 class="giga text-upper text-center not-bold push-0">Dog of the week</h1>
+      <hr>
+    </header>
+    <img class="img-flex" src="../images/dog-1.jpg" alt="">
+    <div class="island">
+      <h2 class="peta">VICTOR</h2>
+      <p class="mega">Victor is a fun loving dog that is always up for a good adventure. He has been a member at our shelter for almost a year now, and is ready for a new home. He is a great leader to the other dogs in our shelter, and an excellent companion.</p>
+      <p class="italic">Victor is a 2 year old husky is you would like to give him a forever home click the button below to fill out our adoption form!</p>
+      <a class="btn btn-standard">Adopt!</a>
+    </div>
+  </div>
 
   <footer class="bottom gutter-2 pad-b pad-t grid">
     <div class="unit xs-1 s-1 m-1 l-1">
@@ -51,8 +72,8 @@
     </div>
     <i class="icon i-32 gutter">
         <svg><use xlink:href="../images/icon-fb.svg" /></svg>
-      </i>
-    <div class="unit footer pad-t pad-b">
+    </i>
+    <div class="unit footer pad-t">
       <div class="unit">
         <p class="push-0 micro"><i class="copyright">Copyright © </i>2004-2005 LOYAL Rescue Inc. All Rights Reserved</p>
       </div>

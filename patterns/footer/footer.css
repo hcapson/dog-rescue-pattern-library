@@ -24,6 +24,7 @@ h5,
 .list {
   color: white;
 }
+
 @media only screen and (min-width: 60em) {
 
   .icon {

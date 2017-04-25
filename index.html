@@ -80,7 +80,7 @@
           <nav class="nav mega">
             <ul class="list-group">
                 <li>
-                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/adoption.html" target="_blank">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/adoption.html" target="_blank">
                     <div class="relative">
                       <span>Adoption</span>
                       <i class="icon i-18 absolute pin-cr">
@@ -90,7 +90,7 @@
                   </a>
                 </li>
                 <li>
-                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/form.html" target="_blank">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/form.html" target="_blank">
                     <div class="relative">
                       <span>Form</span>
                       <i class="icon i-18 absolute pin-cr">
@@ -100,7 +100,7 @@
                   </a>
                 </li>
                 <li>
-                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/home.html" target="_blank">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                     <div class="relative">
                       <span>Home</span>
                       <i class="icon i-18 absolute pin-cr">
@@ -1410,7 +1410,6 @@
     &lt;hr>
   &lt;/header>
 
-
   &lt;form novalidate="">
 
     &lt;div class="grid">
@@ -1441,7 +1440,7 @@
       &lt;/div>
 
       &lt;div class="unit xs-1 s-1 m-2-5 push-1-2 gutter-1-4">
-        &lt;label class="milli" for="dog-name">Dog&apos;s Breed&lt;/label>
+        &lt;label class="milli" for="dog-breed">Dog&apos;s Breed&lt;/label>
         &lt;input id="dog-breed" required aria-describedby="dog-breed-error">
         &lt;p class="error-message micro island-1-4 push-0" id="dog-breed-error">
           &lt;span class="warning-label">Provide the dog&apos;s breed&lt;/span>
@@ -1470,8 +1469,8 @@
         &lt;label class="milli push-1-2 not-bold">Are you currently employed?&lt;/label>
         &lt;input type="radio" name="employed" id="yes-employed" required aria-describedby="employed-error">
         &lt;label for="yes-employed">Yes&lt;/label>
-        &lt;input type="radio" name="employed" id="no-employed" required aria-describedby="employed-error">
-        &lt;label for="no-employed" class="gutter-1-2">No&lt;/label>
+        &lt;input type="radio" name="employed" id="not-employed" required aria-describedby="employed-error">
+        &lt;label for="not-employed" class="gutter-1-2">No&lt;/label>
         &lt;p class="error-message micro island-1-4 push-0" id="employed-error">
           &lt;span class="warning-label">Please indicate if you are employed&lt;/span>
         &lt;/p>
@@ -1511,7 +1510,7 @@
       &lt;h3 class="unit xs-1 s-1 m-1-5 l-1-5 pad-t not-bold giga">Address&lt;/h3>
 
       &lt;fieldset class="unit xs-1 s-1 m-1-5 l-1-5 gutter-1-4">
-        &lt;label class="milli" for="house">House Type&lt;/label>
+        &lt;label class="milli" for="housetype">House Type&lt;/label>
         &lt;select id="housetype" required aria-describedby="house-error">
           &lt;option value="">&#xA0;&lt;/option>
           &lt;option value="House">House&lt;/option>
@@ -1525,33 +1524,32 @@
       &lt;/fieldset>
 
       &lt;fieldset class="unit xs-1 s-1 m-1-5 l-1-5 gutter-1-4">
-        &lt;label class="milli" for="house">House location&lt;/label>
-        &lt;select id="housetype" required aria-describedby="house-error">
+        &lt;label class="milli" for="house-loc">House location&lt;/label>
+        &lt;select id="house-loc" required aria-describedby="house-loc">
           &lt;option value="">&#xA0;&lt;/option>
           &lt;option value="City">City&lt;/option>
           &lt;option value="Neighbourhood">Neighbourhood&lt;/option>
           &lt;option value="subdivision">Subdivision&lt;/option>
           &lt;option value="Country">Country&lt;/option>
         &lt;/select>
-        &lt;p class="error-message micro island-1-4 push-0" id="house-error">
+        &lt;p class="error-message micro island-1-4 push-0" id="location">
           &lt;span class="warning-label">Please select a house Location&lt;/span>
         &lt;/p>
       &lt;/fieldset>
 
       &lt;fieldset class="unit xs-1 s-1 m-1-5 l-1-5 gutter-1-4">
-        &lt;label class="milli" for="house">Backyard Space&lt;/label>
-        &lt;select id="housetype" required aria-describedby="house-error">
+        &lt;label class="milli" for="backyard">Backyard Space&lt;/label>
+        &lt;select id="backyard" required aria-describedby="backyard">
           &lt;option value="">&#xA0;&lt;/option>
           &lt;option value="None">None&lt;/option>
           &lt;option value="Small">Small Yard&lt;/option>
           &lt;option value="Big">Big Yard&lt;/option>
           &lt;option value="Farm">Farm&lt;/option>
         &lt;/select>
-        &lt;p class="error-message micro island-1-4 push-0" id="house-error">
+        &lt;p class="error-message micro island-1-4 push-0" id="size">
           &lt;span class="warning-label">Please select a yard size&lt;/span>
         &lt;/p>
       &lt;/fieldset>
-
 
       &lt;div class="unit xs-1 s-1 m-2-5 l-2-5 push-1-2 gutter-1-4">
         &lt;label class="milli" for="street">Street address&lt;/label>
@@ -1726,10 +1724,10 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="form-text-fields-code-sample-copy-chunk">&lt;form class="max-length island" method="post" novaildate=""&gt;
+              <code><pre id="form-text-fields-code-sample-copy-chunk">&lt;form class="max-length island" method="post" novalidate=""&gt;
   &lt;div class="push island-1-2">
-    &lt;label for="comment">ALLERGIES comment below&lt;/label>
-    &lt;textarea name="message" rows="10" cols="30">
+    &lt;label for="message">ALLERGIES comment below&lt;/label>
+    &lt;textarea id="message" name="message" rows="10" cols="30">
       &lt;/textarea>
   &lt;/div>
 &lt;/form>
